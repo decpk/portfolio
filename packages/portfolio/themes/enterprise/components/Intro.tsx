@@ -10,7 +10,7 @@ const Intro = () => {
 		<div className="flex">
 			<div className="">
 				<div className="flex">
-					<h1 className="bg-gradient-to-r from-zinc-500 via-blue-500 to-zinc-800 bg-clip-text text-2xl font-bold tracking-tight text-transparent text-zinc-800 dark:text-transparent sm:text-5xl md:text-4xl">
+					<h1 className="bg-gradient-to-r from-zinc-500 via-blue-500 to-zinc-800 bg-clip-text text-4xl font-bold tracking-tight text-transparent text-zinc-800 dark:text-transparent">
 						<span className="md:hidden">Frontend software engineer</span>
 						<span className="hidden md:block lg:hidden">
 							Frontend software engineer who enjoys building UI.
@@ -23,7 +23,7 @@ const Intro = () => {
 						<HeroImage />
 					</div>
 				</div>
-				<p className="mt-2 text-justify text-base text-zinc-600 dark:text-zinc-400 md:mt-6">
+				<p className="mt-4 text-justify text-base text-zinc-600 dark:text-zinc-400 md:mt-6">
 					Hi. I&apos;m <span className="font-bold">Praveen Kumar</span>, a Software Engineer based
 					in Bangalore, India. I&apos;m currently working as a React Native developer for
 					MakeMyTrip. I am passionate about personal growth and progressing in my career. This is my

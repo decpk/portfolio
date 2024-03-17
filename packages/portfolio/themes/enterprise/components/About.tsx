@@ -7,7 +7,7 @@ const About = () => {
 				<h1 className="flex gap-4 text-4xl font-bold tracking-tight text-zinc-800 dark:text-transparent sm:text-5xl">
 					About
 				</h1>
-				<p className="mt-6 text-justify text-base text-zinc-600 dark:text-zinc-400">
+				<p className="mt-4 text-justify text-base text-zinc-600 dark:text-zinc-400">
 					Hi there! I&apos;m a passionate software developer with a knack for problem-solving and a
 					strong commitment to community engagement. With over{' '}
 					<span className="font-bold">25000</span> reputation points on{' '}
