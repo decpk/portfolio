@@ -9,8 +9,8 @@ const About = () => {
 				</h1>
 				<p className="mt-6 text-justify text-base text-zinc-600 dark:text-zinc-400">
 					Hi there! I&apos;m a passionate software developer with a knack for problem-solving and a
-					strong commitment to community engagement. With over
-					<span className="font-bold">25000</span> reputation points on
+					strong commitment to community engagement. With over{' '}
+					<span className="font-bold">25000</span> reputation points on{' '}
 					<Link
 						className="font-bold text-blue-500 underline"
 						href={'https://stackoverflow.com/users/9153448/decpk'}
@@ -19,7 +19,7 @@ const About = () => {
 						Stackoverflow
 					</Link>
 					, I&apos;ve established myself as a trusted contributor within the developer community.
-					Over the years, I&apos;ve had the privilege of answering over
+					Over the years, I&apos;ve had the privilege of answering over{' '}
 					<span className="font-bold">1400</span> questions, sharing my expertise, and helping
 					fellow developers overcome challenges in their projects.
 				</p>
