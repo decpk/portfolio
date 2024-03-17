@@ -73,7 +73,7 @@ export default function Index({ publication }: Props) {
 					<div className="mt-16">
 						<Intro />
 					</div>
-					<div className="mt-16">
+					<div className="mb-16 mt-16">
 						<Skills />
 					</div>
 				</Container>
