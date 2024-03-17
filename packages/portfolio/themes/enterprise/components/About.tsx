@@ -1,12 +1,11 @@
 import Link from 'next/link';
+import { Heading } from './_atoms';
 
 const About = () => {
 	return (
 		<div className="flex-col gap-16 md:flex md:flex-row">
 			<div>
-				<h1 className="flex gap-4 text-4xl font-bold tracking-tight text-zinc-800 dark:text-transparent sm:text-5xl">
-					About
-				</h1>
+				<Heading>About</Heading>
 				<p className="mt-4 text-justify text-base text-zinc-600 dark:text-zinc-400">
 					Hi there! I&apos;m a passionate software developer with a knack for problem-solving and a
 					strong commitment to community engagement. With over{' '}

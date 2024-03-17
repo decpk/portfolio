@@ -1,6 +1,7 @@
 import { FaCss3, FaHtml5, FaJs, FaReact, FaSass } from 'react-icons/fa6';
 import { SiStyledcomponents, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { TbBrandNextjs, TbBrandRedux } from 'react-icons/tb';
+import { Heading } from './_atoms';
 
 type Props = {};
 
@@ -54,9 +55,7 @@ const SKILLS = {
 const Skills = (props: Props) => {
 	return (
 		<div>
-			<h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-transparent sm:text-5xl">
-				My Skills
-			</h1>
+			<Heading>My Skills</Heading>
 			<div className="gap:12 mt-4 flex flex-col gap-6 md:flex-row md:gap-24">
 				<div className="">
 					<h3 className="text-gray-light-2 seq mb-4 text-base font-medium uppercase tracking-widest">

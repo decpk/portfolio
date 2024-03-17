@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { FaLinkedin, FaStackOverflow } from 'react-icons/fa6';
 import { SocialLink } from '.';
 import proudCode from '../public/favicon/proud_coder.svg';
+import { GradientText, Heading } from './_atoms';
 
 const HeroImage = () => <Image src={proudCode} alt="developer" fill />;
 
@@ -10,15 +11,15 @@ const Intro = () => {
 		<div className="flex">
 			<div className="">
 				<div className="flex">
-					<h1 className="bg-gradient-to-r from-zinc-500 via-blue-500 to-zinc-800 bg-clip-text text-4xl font-bold tracking-tight text-transparent text-zinc-800 dark:text-transparent">
-						<span className="md:hidden">Frontend software engineer</span>
-						<span className="hidden md:block lg:hidden">
+					<Heading>
+						<GradientText className="md:hidden">Frontend software engineer</GradientText>
+						<GradientText className="hidden md:block lg:hidden">
 							Frontend software engineer who enjoys building UI.
-						</span>
-						<span className="hidden lg:block">
+						</GradientText>
+						<GradientText className="hidden lg:block ">
 							Frontend software engineer who enjoys building beautiful UI.
-						</span>
-					</h1>
+						</GradientText>
+					</Heading>
 					<div className="relative hidden w-[80%] md:block md:h-[130px] lg:hidden">
 						<HeroImage />
 					</div>
