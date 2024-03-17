@@ -8,9 +8,9 @@ const About = () => {
 					About
 				</h1>
 				<p className="mt-6 text-justify text-base text-zinc-600 dark:text-zinc-400">
-					Hi there! I'm a passionate software developer with a knack for problem-solving and a
-					strong commitment to community engagement. With over{' '}
-					<span className="font-bold">25000</span> reputation points on{' '}
+					Hi there! I&apos;m a passionate software developer with a knack for problem-solving and a
+					strong commitment to community engagement. With over
+					<span className="font-bold">25000</span> reputation points on
 					<Link
 						className="font-bold text-blue-500 underline"
 						href={'https://stackoverflow.com/users/9153448/decpk'}
@@ -18,8 +18,8 @@ const About = () => {
 					>
 						Stackoverflow
 					</Link>
-					, I've established myself as a trusted contributor within the developer community. Over
-					the years, I've had the privilege of answering over{' '}
+					, I&apos;ve established myself as a trusted contributor within the developer community.
+					Over the years, I&apos;ve had the privilege of answering over
 					<span className="font-bold">1400</span> questions, sharing my expertise, and helping
 					fellow developers overcome challenges in their projects.
 				</p>
@@ -32,11 +32,11 @@ const About = () => {
 						within the tech industry.
 					</p>
 					<p className="mt-6 text-justify text-base text-zinc-600 dark:text-zinc-400">
-						Beyond Stack Overflow, I'm constantly exploring new technologies, honing my skills, and
-						seeking opportunities to contribute to open-source projects. Whether it's debugging
-						complex issues or providing guidance on best practices, I thrive on the satisfaction of
-						helping others succeed in their endeavors. Let's connect and embark on this exciting
-						journey of discovery together!
+						Beyond Stack Overflow, I&apos;m constantly exploring new technologies, honing my skills,
+						and seeking opportunities to contribute to open-source projects. Whether it&apos;s
+						debugging complex issues or providing guidance on best practices, I thrive on the
+						satisfaction of helping others succeed in their endeavors. Let&apos;s connect and embark
+						on this exciting journey of discovery together!
 					</p>
 				</div>
 			</div>
