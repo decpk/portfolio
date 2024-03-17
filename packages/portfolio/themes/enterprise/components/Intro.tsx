@@ -1,12 +1,10 @@
 import { FaLinkedin, FaStackOverflow } from 'react-icons/fa6';
 import { SocialLink } from '.';
 
-type Props = {};
-
-const Intro = (props: Props) => {
+const Intro = () => {
 	return (
 		<div className="max-w-2xl">
-			<h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-transparent sm:text-5xl">
+			<h1 className="bg-gradient-to-r from-zinc-500 via-blue-500 to-zinc-800 bg-clip-text text-4xl font-bold tracking-tight text-transparent text-zinc-800 dark:text-transparent sm:text-5xl">
 				Frontend software engineer who enjoys building beautiful and functional User Interfaces.
 			</h1>
 			<p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
