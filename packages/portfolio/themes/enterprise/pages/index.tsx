@@ -4,6 +4,7 @@ import request from 'graphql-request';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Intro from '../components/Intro';
+import Skills from '../components/Skills';
 import { Container } from '../components/container';
 import { AppProvider } from '../components/contexts/appContext';
 import { Footer } from '../components/footer';
@@ -68,8 +69,13 @@ export default function Index({ publication }: Props) {
 					/>
 				</Head>
 				<Header />
-				<Container className="pb-30 py-30 flex flex-col items-stretch gap-10 px-5 py-16">
-					<Intro />
+				<Container className="pb-30 py-30 flex flex-col items-stretch gap-10 px-5 ">
+					<div className="mt-16">
+						<Intro />
+					</div>
+					<div className="mt-16">
+						<Skills />
+					</div>
 				</Container>
 				<Footer />
 			</Layout>
