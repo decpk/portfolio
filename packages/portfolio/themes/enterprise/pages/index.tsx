@@ -70,7 +70,7 @@ export default function Index({ publication }: Props) {
 					/>
 				</Head>
 				<Header />
-				<Container className="pb-30 py-30 gap:24 my-16 flex flex-col items-stretch gap-12 px-5 md:gap-16 lg:gap-24">
+				<Container className="pb-30 py-30 gap:24 lg:gap-18 my-16 flex flex-col items-stretch gap-12 px-5 md:gap-16">
 					<Intro />
 					<About />
 					<Skills />
