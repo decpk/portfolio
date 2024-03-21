@@ -1806,7 +1806,7 @@ type Post implements Node {
   """
   Returns male and female audio url of the post. Available in case the Audioblog is enabled.
   """
-  audioUrls: AudioUrls
+  audioUrls: AudioUrls @deprecated(reason: "Audio Blogs are not supported anymore. This field will be removed 18/04/23")
   """Returns the user details of the author of the post."""
   author: User!
   """
@@ -2320,7 +2320,7 @@ input PublicationDraftConnectionFilter {
 """Contains the publication's beta features."""
 type PublicationFeatures {
   """Audio player for blog posts."""
-  audioBlog: AudioBlogFeature!
+  audioBlog: AudioBlogFeature! @deprecated(reason: "Audio Blogs are not supported anymore. This field will be removed 18/04/23")
   """Individual styling for the publication."""
   customCSS: CustomCSSFeature!
   """
