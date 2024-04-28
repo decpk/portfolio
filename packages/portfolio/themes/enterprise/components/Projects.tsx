@@ -34,33 +34,33 @@ const Projects = () => {
 									includes a powerful TypeScript IDE tailored to the needs of modern web
 									development. With features such as syntax highlighting, code completion, and
 									real-time error checking, developers can write clean, efficient TypeScript code
-									with confidence. The IDE's intuitive interface and robust functionality enable
-									seamless development and debugging of TypeScript projects.
+									with confidence. The IDE&apos;s intuitive interface and robust functionality
+									enable seamless development and debugging of TypeScript projects.
 								</li>
 								<li>
 									<strong>Text Diff Editor:</strong> Simplify the process of comparing and merging
-									text files with Learnjs's Text Diff Editor. Whether you're reviewing changes
-									between code revisions, collaborating with team members, or resolving conflicts in
-									version control, this tool provides a user-friendly interface for visualizing and
-									managing text differences. With side-by-side comparison and highlighting features,
-									developers can quickly identify discrepancies and make informed decisions with
-									ease.
+									text files with Learnjs&apos;s Text Diff Editor. Whether you&apos;re reviewing
+									changes between code revisions, collaborating with team members, or resolving
+									conflicts in version control, this tool provides a user-friendly interface for
+									visualizing and managing text differences. With side-by-side comparison and
+									highlighting features, developers can quickly identify discrepancies and make
+									informed decisions with ease.
 								</li>
 								<li>
 									<strong>JSON Viewer:</strong> Visualize and manipulate JSON data effortlessly
-									using Learnjs's built-in JSON Viewer. This tool offers a structured and
+									using Learnjs&apos;s built-in JSON Viewer. This tool offers a structured and
 									interactive display of JSON objects, arrays, and nested elements, making it easy
 									to navigate and understand complex data structures. Developers can inspect, edit,
 									and validate JSON data in real time, ensuring accuracy and consistency in their
 									web applications.
 								</li>
 								<li>
-									<strong>TODOs Manager:</strong> Stay organized and focused on tasks with Learnjs's
-									integrated TODOs Manager. This feature allows developers to create, prioritize,
-									and track TODO items within their projects, providing a convenient way to manage
-									workflow and track progress. With customizable tags, due dates, and status
-									indicators, developers can effectively prioritize tasks and stay on top of their
-									development goals.
+									<strong>TODOs Manager:</strong> Stay organized and focused on tasks with
+									Learnjs&apos;s integrated TODOs Manager. This feature allows developers to create,
+									prioritize, and track TODO items within their projects, providing a convenient way
+									to manage workflow and track progress. With customizable tags, due dates, and
+									status indicators, developers can effectively prioritize tasks and stay on top of
+									their development goals.
 								</li>
 							</ul>
 							<h2 className="mt-4 text-xl font-bold">Key Features:</h2>
@@ -83,9 +83,9 @@ const Projects = () => {
 							</ul>
 							<p>
 								Overall, Learnjs is a must-have companion for web developers seeking to streamline
-								their workflow, collaborate effectively, and deliver exceptional results in their
-								projects. Whether you're a seasoned developer or just starting out, Learnjs provides
-								the essential tools and features to elevate your development experience.
+								their workflow, and deliver exceptional results in their projects. Whether
+								you&apos;re a seasoned developer or just starting out, Learnjs provides the
+								essential tools and features to elevate your development experience.
 							</p>
 						</div>
 					</div>
