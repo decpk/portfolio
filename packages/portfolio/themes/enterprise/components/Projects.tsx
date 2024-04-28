@@ -24,8 +24,8 @@ const Projects = () => {
 							<h1 className="">
 								A versatile web application designed to streamline and enhance the workflow of web
 								developers. With a comprehensive suite of tools conveniently accessible in one
-								centralized platform, Learnjs empowers developers to boost productivity, collaborate
-								effectively, and deliver high-quality projects with ease.
+								centralized platform, Learnjs empowers developers to boost productivity, and deliver
+								high-quality projects with ease.
 							</h1>
 							<h2 className="mt-4 text-xl font-bold">Key Features:</h2>
 							<ul className="mt-1 space-y-4">
@@ -40,11 +40,10 @@ const Projects = () => {
 								<li>
 									<strong>Text Diff Editor:</strong> Simplify the process of comparing and merging
 									text files with Learnjs&apos;s Text Diff Editor. Whether you&apos;re reviewing
-									changes between code revisions, collaborating with team members, or resolving
-									conflicts in version control, this tool provides a user-friendly interface for
-									visualizing and managing text differences. With side-by-side comparison and
-									highlighting features, developers can quickly identify discrepancies and make
-									informed decisions with ease.
+									changes between code revisions, or resolving conflicts in version control, this
+									tool provides a user-friendly interface for visualizing and managing text
+									differences. With side-by-side comparison and highlighting features, developers
+									can quickly identify discrepancies and make informed decisions with ease.
 								</li>
 								<li>
 									<strong>JSON Viewer:</strong> Visualize and manipulate JSON data effortlessly
@@ -69,11 +68,6 @@ const Projects = () => {
 									<strong>Enhanced Productivity:</strong> By consolidating essential development
 									tools into a single platform, Learnjs streamlines the development process,
 									minimizing context switching and maximizing productivity.
-								</li>
-								<li>
-									<strong>Improved Collaboration:</strong> With features like real-time
-									collaboration in the Text Diff Editor and shared TODO lists, Learnjs facilitates
-									seamless collaboration among team members, promoting communication and efficiency.
 								</li>
 								<li>
 									<strong>Code Quality Assurance:</strong> The built-in TypeScript IDE and JSON
