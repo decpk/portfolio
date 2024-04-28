@@ -7,6 +7,7 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import About from '../components/About';
 import Intro from '../components/Intro';
+import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import { Container } from '../components/container';
 import { AppProvider } from '../components/contexts/appContext';
@@ -78,6 +79,7 @@ export default function Index({ publication }: Props) {
 					<Intro />
 					<About />
 					<Skills />
+					<Projects />
 				</Container>
 				<Footer />
 			</Layout>

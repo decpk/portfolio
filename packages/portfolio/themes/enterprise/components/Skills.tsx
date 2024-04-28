@@ -55,7 +55,7 @@ const SKILLS = {
 const Skills = (props: Props) => {
 	return (
 		<div>
-			<Heading>My Skills</Heading>
+			<Heading>Skills</Heading>
 			<div className="gap:12 mt-4 flex flex-col gap-6 md:flex-row md:gap-24">
 				<div className="">
 					<h3 className="text-gray-light-2 seq mb-4 text-base font-medium uppercase tracking-widest">

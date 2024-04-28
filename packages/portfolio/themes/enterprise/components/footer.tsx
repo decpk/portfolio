@@ -1,16 +1,15 @@
 import Link from 'next/link';
 import { Container } from './container';
 import { useAppContext } from './contexts/appContext';
-import { SocialLinks } from './social-links';
 
 export const Footer = () => {
 	const { publication } = useAppContext();
 	const PUBLICATION_LOGO = publication.preferences.logo;
 	return (
-		<footer className="border-t py-20 dark:border-neutral-800 ">
+		<footer className="border-t py-10 dark:border-neutral-800 ">
 			<Container className="px-5">
 				{PUBLICATION_LOGO ? (
-					<div className="mb-20 flex w-full flex-row justify-center">
+					<div className="mb-8 flex w-full flex-row justify-center">
 						<Link
 							href={'/'}
 							aria-label={`${publication.title} home page`}
@@ -20,11 +19,11 @@ export const Footer = () => {
 						</Link>
 					</div>
 				) : (
-					<p className="mb-20 text-center text-xl font-semibold text-slate-900 dark:text-slate-50 md:text-4xl">
+					<p className="mb-8 text-center text-xl font-semibold text-slate-900 dark:text-slate-50 md:text-4xl">
 						{publication.title}
 					</p>
 				)}
-				<div className="grid w-full grid-cols-3 gap-5 md:grid-cols-6 lg:grid-cols-5">
+				{/* <div className="grid w-full grid-cols-3 gap-5 md:grid-cols-6 lg:grid-cols-5">
 					<div className="col-span-1 grid grid-cols-4 gap-5 md:col-span-4 lg:col-span-3">
 						<div className="col-span-full md:col-span-2 lg:col-span-1">
 							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">
@@ -142,7 +141,7 @@ export const Footer = () => {
 							</a>
 						</p>
 					</div>
-				</div>
+				</div> */}
 			</Container>
 		</footer>
 	);

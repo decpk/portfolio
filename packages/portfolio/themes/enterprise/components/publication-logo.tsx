@@ -13,10 +13,6 @@ const getPublicationLogo = (publication: PublicationFragment, isSidebar?: boolea
 export const PublicationLogo = ({ isSidebar }: { isSidebar?: boolean }) => {
 	const { publication } = useAppContext();
 	const PUBLICATION_LOGO = getPublicationLogo(publication, isSidebar);
-	console.log(
-		`🚀🚀🚀 ~ file: publication-logo.tsx:16 ~ PublicationLogo ~ PUBLICATION_LOGO => `,
-		PUBLICATION_LOGO,
-	);
 
 	return (
 		<h1 className="relative w-full">

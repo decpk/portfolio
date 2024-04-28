@@ -5,7 +5,6 @@ import CustomImage from './custom-image';
 
 function PostAuthorInfo(props: any) {
 	const { author } = props;
-	console.log(`🚀🚀🚀 ~ file: post-author-info.tsx:10 ~ PostAuthorInfo ~ author => `, author);
 
 	return (
 		<div className="flex w-full flex-1 flex-col md:flex-row">
